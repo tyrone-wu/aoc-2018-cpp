@@ -1,0 +1,19 @@
+#pragma once
+
+#include "DaySolver.h"
+@INCLUDES@
+#include <memory>
+
+namespace adventofcode {
+
+inline constexpr std::array<int, @NB_DAYS@> available_days = {@AVAILABLE_DAYS@};
+
+inline std::unique_ptr<DaySolver> createSolver(int day) {
+    switch (day) {
+@CASES@
+        default:
+            return nullptr;
+    }
+}
+
+}
