@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.20)
 project(adventofcode
         VERSION 0.1.0
-        DESCRIPTION "Advent of Code 2024"
+        DESCRIPTION "Advent of Code 2018"
         LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 23)

@@ -31,7 +31,7 @@ function(generate_day day)
     # Download the input file from the AoC website
     message(STATUS "Downloading the input...")
     file(READ ${CMAKE_SOURCE_DIR}/.session SESSION_COOKIE)
-    set(INPUT_URL "https://adventofcode.com/2024/day/${DAY}/input")
+    set(INPUT_URL "https://adventofcode.com/2018/day/${DAY}/input")
     set(HEADER "Cookie: session=${SESSION_COOKIE}")
     set(OUTPUT_FILE "${CMAKE_SOURCE_DIR}/inputs/day${DAY}.txt")
     file(DOWNLOAD ${INPUT_URL} ${OUTPUT_FILE}
