@@ -1,3 +1,7 @@
+# 🎄 Advent of Code 2018
+
+<img src="./reindeer.png">
+
 # Advent Of Code C++ Template
 
 This is a template for C++ solutions to the [Advent of Code](https://adventofcode.com/) challenges.
